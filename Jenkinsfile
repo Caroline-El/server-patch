@@ -1,6 +1,6 @@
 pipeline {
   agent {
-    label 'ansible-server'
+    label 'server-ansible'
   }
   stages {
     stage('deploy patch playbook'){
